@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Component/Header'; // Import Header component
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Meraki</h1>
+      <Header/>
     </div>
   );
 }
