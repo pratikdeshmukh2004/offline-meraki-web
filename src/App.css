@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* CourseStyles.css */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0px; /* Adjust the horizontal margin */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+}
+
+.card-image {
+  width: 250px;   /* Fixed width */
+  height: 200px;  /* Fixed height */
+  object-fit: cover;
+  border-radius: 8px;
+  /* Center the image both horizontally and vertically */
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 16px 0;
+}
+
+/* CourseStyles.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
+  gap: 16px 0px;
+  padding: 19px;
+}
+
+@media (max-width: 50px) {
+  .card-container {
+    width: 100%;
+  }
+}
