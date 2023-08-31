@@ -1,12 +1,52 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Box from '@mui/material/Box';
-
+import { styled } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+
+
+function CourseCard({ course }) {
+  const bull = (
+    <Box
+      component="span"
+      sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
+    >
+    </Box>
+  );
+
+  const cardStyle = {
+    width: "250px",    // Set the width of the card
+    height: "200px",   // Set the height of the card
+  };
+
+  const imgStyle = {
+    width: "100%",      // Make the image occupy the full width of the card
+    height: "100%",     // Make the image occupy the full height of the card
+    objectFit: "cover", // Maintain aspect ratio and cover the whole space
+  };
+
+  return (
+    <Card style={cardStyle}>
+      <CardContent>
+        <Typography variant="h6" component="div">
+          <img
+            src={course.logo}
+            alt={course.name}
+            style={imgStyle} // Apply the image dimensions
+          />
+        </Typography>
+        <Typography variant="h6" component="div">
+          {bull}
+          {course.name}
+        </Typography>
+      </CardContent>
+    </Card>
+  );
+}
 function Course() {
   const [data, setData] = useState([]);
 
@@ -34,31 +74,17 @@ function Course() {
       // Perform any cleanup operations here
     };
   }, []);
-  const bull = (
-    <Box
-      component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-    </Box>
-  );
+
   return (
     <div>
       <h1>Courses</h1>
-      <div className="course-cards">
+      <Grid container spacing={2}>
         {data.pathway?.courses.map(course => (
-          <Card sx={{ minWidth: 275 }}>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                <img src={course.logo} alt={course.name} />
-              </Typography>
-              <Typography variant="h5" component="div">
-              {bull}{course.name}
-              </Typography>
-            </CardContent>
-          </Card>
-        )
-        )}
-      </div>
+          <Grid item xs={6} sm={4} md={3} key={course.id}>
+            <CourseCard course={course} />
+          </Grid>
+        ))}
+      </Grid>
     </div>
   );
 }
