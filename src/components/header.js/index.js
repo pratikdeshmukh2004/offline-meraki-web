@@ -1,7 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-
+import { Link } from "react-router-dom";
 import { Box } from "@mui/material";
 import image from "./assest/meraki.svg";
 
@@ -43,12 +43,14 @@ function Header() {
               alignItems: "center",
             }}
           >
-            <img
-              src={image}
-              loading="lazy"
-              alt="meraki"
-              sx={{ marginTop: "10px" }}
-            />
+            <Link to="/">
+              <img
+                src={image}
+                loading="lazy"
+                alt="meraki"
+                sx={{ marginTop: "10px" }}
+              />
+            </Link>
             <Typography
               variant="subtitle1"
               component="div"
