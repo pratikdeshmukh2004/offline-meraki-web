@@ -53,11 +53,11 @@ const Pathways = () => {
           {courses.map((course, index) => (
             <Grid item key={index} xs={12} md={3}>
               <Card
-                // className={classes.pathwayCard}
                 sx={{
                   minWidth: "150px",
                   backgroundColor: "pink",
                   margin: "16px 0",
+                  height: "100%",
                   "&:hover": {
                     boxShadow:
                       "0px 16px 24px rgba(0, 0, 0, 0.06), 0px 6px 30px rgba(0, 0, 0, 0.04), 0px 8px 10px rgba(0, 0, 0, 0.08)",
@@ -69,10 +69,11 @@ const Pathways = () => {
                   component="img"
                   src={course.logo}
                   style={{
-                    width: "100%",
+                    width: "50%",
+                    padding: "8px",
                     // height: "100px ",
                     borderRadius: "8px",
-                    // objectFit: "cover",
+                    objectFit: "contain",
                   }}
                 />
                 {/* <img
@@ -91,7 +92,7 @@ const Pathways = () => {
                     p: "0px 8px 0px 0px",
                   }}
                 >
-                  <Typography align="left" variant="body1">
+                  <Typography align="center" variant="body1">
                     {course.name}
                   </Typography>
                 </CardContent>
