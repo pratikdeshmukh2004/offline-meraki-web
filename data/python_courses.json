@@ -1,0 +1,93 @@
+{
+    "courses": [
+        {
+            "id": 87,
+            "name": "Introduction To Python",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/intro_d41b1951cf.jpg",
+            "short_description": "In this topic we will study about the Introduction of Python.",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 89,
+            "name": "Variables",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/variables_b26cad6b7c.jpg",
+            "short_description": "Iss topic mai hum Variables ke bare mai janege",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Data Types",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/datatypes_dcc22ad864.jpg",
+            "short_description": "In this topic we will learn about Data Types.",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Operators",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/operators_6510bff3f2.jpg",
+            "short_description": "In this topic, we will learn about Operators.",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "If-else",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/if_else_cd6d76c3c8.jpg",
+            "short_description": "In this topic, we will learn about if-else.",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Loops 101 (Using Python)",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/loops_101_0fb62300ae.jpg",
+            "short_description": "Let us understand loops in depth.",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 88,
+            "name": "Lists 101 (Using Python)",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/lists_101_1fc35694d7.jpg",
+            "short_description": "Let us understand list  in depth.",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        },
+        {
+            "id": 86,
+            "name": "Dictionary (Using Python)",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/dictionaries_5add0cf53e.jpg",
+            "short_description": "Dictionary ko thoda depth mein samajhte hain.",
+            "lang_available": [
+                "en"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Functions",
+            "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/functions_27472588a3.jpg",
+            "short_description": "Iss topic mai hum functions ke bare mai janege",
+            "lang_available": [
+                "en",
+                "hi"
+            ]
+        }
+    ]
+}
