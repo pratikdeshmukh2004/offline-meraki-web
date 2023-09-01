@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     axios
       .get(
-        `https://pratikdeshmukh2004.github.io/testing-offline/data/courses.json`
+        `https://pratikdeshmukh2004.github.io/offline-meraki-web/data/courses.json`
       )
       .then((response) => {
         console.log(response);
