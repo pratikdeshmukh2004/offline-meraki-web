@@ -1,0 +1,1493 @@
+{
+    "course": {
+        "id": 87,
+        "name": "Introduction To Python",
+        "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/intro_d41b1951cf.jpg",
+        "short_description": "In this topic we will study about the Introduction of Python.",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": 1212,
+                "name": "how-to-begin",
+                "description": "information about how-to-begin",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "Anyone can do anything"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We all know that starting to learn something takes hardwork and time but it's beneficial in the end. Many of us are often confused about whether we should learn programming or not. Well programming is not about just getting a job, it helps us develop our creativity, logical thinking and many more. For example the following video introduces some famous personalities for whom programming is not a career but a way of living. Hope you'd enjoy this video."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "ip051U7Rvds"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "How to begin this course?"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "ccPrUbz1oto"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When you will move forward in this course, you will find examples of python code in different ways. You have to run these examples on <b>python shell</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Open <b>python shell</b> in your laptop."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "$ python"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"This line will be printed in python.\")<br>print(\"This, another line will also be printed in python\")<br>print(2 + 5)<br>i = 0<br>print(i)<br>while i < 100:<br>    print(\"I will be printed again and again. :)\")<br>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Select the code given above, press Ctrl + C together so that the code will be copied and then you can go to the terminal and paste this code by pressing Ctrl + Shift + V on the terminal."
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you will run this code line by line, you will be able to understand the code line by line."
+                    },
+                    {
+                        "component": "text",
+                        "value": "This complete code is doing 4-5 different tasks, how can we break this code into parts and understand it, this method is given below and it is going to help you in the future."
+                    },
+                    {
+                        "component": "text",
+                        "value": "This is the first line, run this line on the terminal, you will be able to see something on the terminal."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"This line will be printed in python.\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please run this second code on the Terminal and see what happens there?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"This, another line will also be printed in python\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now run this line separately on the  Terminal and see what happens there?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(2 + 5)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now copy-paste this code together on the  Terminal and see what happens there?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"This line will be printed in python.\")<br>print(\"This, another line will also be printed in python\")<br>print(2 + 5)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What is happening in this line, you will be able to understand later? But run this code and try to understand."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "i = 0<br>print(i)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Copy-paste this on Terminal and to stop this press  Ctrl + C  together on the Terminal."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "i = 0<br>while i < 100:<br>    print(\"I will be printed again and again.:)\""
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now run this code and try to identify the difference between the code given above and below."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "i = 0<br>while i < 100:<br>\tprint(\"I will be printed again and again:)\")<br>\ti = i+1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now run this code together and to stop this code what will you do?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"This line will be printed in python.\")<br>print(\"This, another line will also be printed in python\")<br>print(2 + 5)<br>i = 0<br>print (i)<br>while i < 100:<br>\tprint(\"I will be printed again and again.:)\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now think that what will you do to stop the code given above?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Similarly, in this way, only codes will be written in the whole course. You will be required to run the code this way only. To run this code you need to open an application named Terminal on your laptop. After opening it, you need to type the python code and then run it."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Very Important Rules"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Execute each example on <b>python shell</b>. If you are not doing this you are making a fool of yourself.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "By copy-pasting the code, you will not be \nable to understand it properly. You should write each code by yourself \nand then run it.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Words written in UPPER CASE or <b>bold letters</b> are very important. Learn them, you will come across them many times.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "During the course you need to answer some questions at many places. To give answers you can upload the file.<br>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 154,
+                "updated_at": "2023-04-12T10:47:22.184Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1213,
+                "name": "why",
+                "description": "information about why",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.youtube.com/watch?v=UlpurGz1-TU&amp;t=9s\">Introduction of Python in English<br></a>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.youtube.com/watch?v=iWNpVTYSt74\">Introduction of Python in Hindi<br></a>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "What are the feature of coding"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When we want to send a file like an image, audio or video file, we sometimes compresses it or the software or website we use compresses it for us. This compression is necessary so that less space and data is used to store and send those files. In the following video Aloe Blacc, a singer, songwriter and entertainer who also created his website by himself, explains how compressions of files happens through coding and why it is useful. "
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "By30SCp-Tsw"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Coding has practical applications in many industries, for example following video discusses use of coding in medical science and how it can save lives, in this video Joshua was treated in one day, thanks to algorithms they used to analyse his gene sequence which is impossible to figure out otherwise. "
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "bMrDHtGHFR4"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "Difference Between Python2 and Python3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Python2</b>"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "Print \"Hello World\""
+                    },
+                    {
+                        "component": "text",
+                        "value": "1. This is old version of python ."
+                    },
+                    {
+                        "component": "text",
+                        "value": "2. Python2 has one print statement."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<br>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "3. In Python2 while printing we write like this ,"
+                    },
+                    {
+                        "component": "text",
+                        "value": "4. In Python2 we use raw_input for user input."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "age= int(raw_input(\"enter your age\"))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5. Python2 has 31 keywords ."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Python3</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1. This is the new version of python ."
+                    },
+                    {
+                        "component": "text",
+                        "value": "2. Python3 has one print() ."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "In Python3 me while  printing  we use parentheses () ."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"Hello World\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "3. In Python3 we use input for user's input ."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "age=int(input(\"please enter your age\"))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5. Python3 has 33 keywords ."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 156,
+                "updated_at": "2023-04-06T12:10:38.670Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1214,
+                "name": "WhatDoComputersDo",
+                "description": "information about WhatDoComputersDo",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What Do Computers Do?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In our human history, there have been some great inventions that have brought progress in the lives of humans and have also provided direction to it. Ex:<b>WHEEL</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Humans were not able to lift or carry heavy loads to longer distances. This was due to human physical limitations.<br>By the invention of WHEEL, humans were able to carry very heavy loads as well as to travel long distances also.<br>The world became smaller to us. Hence, the invention of WHEEL solved lots of problems. Now, we can even meet our relatives staying far off and transportation of goods also became easier."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Another great invention that brought a drastic change in human history-<b>COMPUTER</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Just as WHEELS removed our physical limitations, similarly COMPUTERS helped in expanding our brain capacity or mental limitations."
+                    },
+                    {
+                        "component": "text",
+                        "value": "The human brain can solve many complex tasks/problems. But if our brain continuously solves these complex problems, our brain will start getting tired or bored. Our brain will start making mistakes and it becomes difficult for us to solve the problem."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Just as wheels removed our physical limitations, the invention of computers, helped in removing our mental limitations. By giving instructions to the Computer, we can make them perform complex tasks, continuously without making any mistakes and without getting tired."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Computers don’t have their brain so they can’t think, we have to give instructions to them to make them solve any complex problem."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Let's see the following video where May Li(Designer and Inventor) and Nat(Designer at Xbox) explains what computers are, how they works and how we are surrounded by computers now. Hope you'd enjoy it."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "mCq8-xTH7jA"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Read and search the following questions.</b><br>--   What did you learn about computers?<br>--   What are the <span style=\"\">applications</span> of computers? What kinds of problems do these <span style=\"\">applications</span> solve? Think about what kind of instructions were given to computers for these <span style=\"\">applications</span>?"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 160,
+                "updated_at": "2023-03-25T09:58:52.540Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1215,
+                "name": "WhatIsProgramming",
+                "description": "information about WhatIsProgramming",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is Programming?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "By giving <b>instructions</b> to the computer,we can make the computers solve complex problems."
+                    },
+                    {
+                        "component": "text",
+                        "value": "A set of <b>instructions</b> given to the computer is called a <b>program</b>.<br>The Process of giving instructions to the computer is called <b>programming</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Doesn't it sound simple that we give instructions(program) to the computer and the computer follows these instructions to solve a complex problem? Giving instructions to the computer is called programming. :)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "But there is a small problem."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Computers cannot understand our language like (Hindi, Tamil,  Kannada). Computers can only understand the machine language which is made of 0 and 1. So, it becomes difficult for us to communicate with the computer in machine language."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then how can we give instructions to the computer?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Therefore, to solve this problem we made some languages like(Java, Python, JavaScript) so that we can easily give instructions to the computer. Computers can easily convert these languages into machine language with the help of “another program called a compiler.”"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To give instructions to the computer we need to learn any of these given languages. In this course, we are going to learn the python language."
+                    },
+                    {
+                        "component": "text",
+                        "value": "We will use python language to give instructions to the computer."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the following video Erica(Engineering Manager at Amazon) and Jerome(Program Manager at Xbox) explains how computer hardware like circuits, CPU, etc are controlled by codes that we write. Basically how harware and software works together to execute a task. Bill Gates, co-founder of Microsoft and creator of Windows OS, explains how OS works. Hope you'd enjoy it."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "xnyFYiK2rSY"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Assignment</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Have you ever given instructions to anybody or taken instructions from anybody. Can we call that a <b>program</b>?",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Search for Python language and its applications? How many people in the world use Java?<br>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 161,
+                "updated_at": "2023-04-04T02:26:22.750Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1216,
+                "name": "basic-definitions_Introduction",
+                "description": "information about basic-definitions_Introduction",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Introduction of Python in English :-"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "UlpurGz1-TU"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is important to understand that programming isn't a skill only important to the app developers. You can be in any profession and use programming. For instance, in this video Steph who is a football player, and is also learning programming."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "NYzN0a1U8mI"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Introduction of Python in Hindi :-"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "iWNpVTYSt74"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 163,
+                "updated_at": "2023-04-01T05:54:19.078Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1217,
+                "name": "basic-definitions_definitions-part-1",
+                "description": "information about basic-definitions_definitions-part-1",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Basic Definitions"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>A set of instructions is called a program.</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 5<br>b = 9<br>print(a+b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "14 "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Real Life Example :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "For example if we want to make tea ,we will first collect all the ingredients required to make tea like sugar, tea leaves, milk, these are all the instructions that tell what is needed to make tea."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Another example, if we want to go to the market, this is a program and the way/ route we follow to go to  the market is called programming."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To know more about Program in detail, please visit this link."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://youtu.be/SDxPjsRksw0\">Program</a>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Programming :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The process of doing any work is called programming."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the process of making tea."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Like first we take a bowl ,add water, sugar, tea leaves and milk then boil it, hence the tea is prepared. Similarly to do computer programming we need to follow some rules which we will study today."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example :"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 5<br>b = 7<br>print(a+b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "12"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example we are adding a and b, here to add  is a process and this process is called programming. Whatever work we do, the process of doing that work is called programming."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To know about Programming in detail you can go to this link.\n<a href=\"https://youtu.be/ZMMVf4Qv\">Programming</a>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "High Level Language"
+                    },
+                    {
+                        "component": "text",
+                        "value": "High level language is that language that humans can easily understand but computers cannot."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Just as we can understand English but computers cannot understand English. Computer understands  0 and 1 ."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Low Level Language"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Low level language is also called  machine language which is made of 1 or 0, humans cannot understand low level language but computers can easily understand."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Note- Study in detail about High level and low level language. <a href=\"https://youtu.be/bqyVOEgDSj8\">High or low level language</a> "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Syntax"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Syntax is just like python grammar. It is a set of rules that tells how to write and run a python code."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Suppose you have written (Python awesome) in English , do you think that it is grammatically correct or is there anything missing?<br>Yes, you are correct, this sentence is grammatically wrong  (python is awesome ) this sentence is correct , just as in English, there are certain rules of grammar similarly to write some  python code some syntax rule  are there ,like while writing code  if we forget to put any symbol, Colón(:) or parenthesis  () etc, then it will display a message of syntax error."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num = 5<br>print(num"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Syntax Error: unexpected EOF while parsing"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num = 5<br>print \"a\""
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Syntax Error: invalid syntax"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example you saw that while printing I forgot to put one parenthesis, as a result of this it is showing syntax error."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Algorithm"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Algorithm is a step by step process to solve any problem. With the help of this we break the problem into smaller parts and then solve it. It can also be defined as a procedure or formula to solve any problem or task."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If we want to make cookies ,so first we collect all the ingredients and then we will make it step by step, if we miss any step then cookies would not be tasty or good.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "To make tea first of all we will take",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "a bowl <br>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "then water",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Sugar and tea leaf",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "milk<br>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "As you saw above that we have made a list of ingredients required to make tea i.e. we have collected all the things to make tea. This is called algorithm, here we have taken things step by step."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To study Algorithm in detail please click this link.  <a href=\"https://youtu.be/MvayENwOCNM\">Algorithm</a>"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 164,
+                "updated_at": "2023-04-04T02:27:22.778Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1218,
+                "name": "basic-definitions_definition-part-2",
+                "description": "information about basic-definitions_definition-part-2",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Definitions"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Binary Numbers"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Binary numbers are known as machine language or low level language, binary numbers are made of 0 and 1 which humans cannot understand but computers can."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Limor, founder of Adafruit Industries which is one of the best sellers of electronics components, parts, tools, microcontrollers and many more. Federico is a software developer at Microsoft, one of the current tech giants. Lets hear from Limor and Federico in the following video about how computers works on 0s and 1s, and how computers understands commands given by us through lines of code."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "USCBCmwMCDA"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Interpreter"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It checks the code line by line and the line at which error is present, interpreter  stops the code at that line and shows the name of error.<br>Interpreter  converts high level language to low level language with the help of which the computer is able to run the code."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Interpreter is used for Python and Ruby programming languages.</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = megha<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "NameError: name 'megha' is not defined"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In  this example you saw that I have taken a variable named <b>a</b> and assigned/given  a string value to it but I forgot to put \" \"(quote). So, python was not able to identify the type of value I gave to the variable <b>a</b>. Therefore, the interpreter stopped the code at the line that contained error, and displayed the error."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Compiler"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Compiler is a software that scans the complete code in one go and if the code contains any error, then it shows the error at the end of the code.<br>Whereas the interpreter, stops the code at the line that contains error."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Compiler is used in C and C++ programming languages.</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To study Compiler and Interpreter in detail please click this link.  <a href=\"https://www.youtube.com/watch?v=e4ax90XmUBc&amp;t=156s\">Compiler and Interpreter</a> ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Case Sensitive"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Case sensitive means that the text that we have typed should be exactly same as we type it anywhere in the code."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var = 5<br>print(Var)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Var is not defined"
+                    },
+                    {
+                        "component": "text",
+                        "value": "For example ,in the above example ,we have assigned a  variable named <b>var</b> and while printing we typed <b>Var</b>, so an error was displayed because in python var and Var are different. In python small letters and capital letters are considered different."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Note- You can click this link to study  case sensitive in detail . <a href=\"https://youtu.be/mNxDbLBBzno\">Case Sensitive</a> "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Error/ Bugs"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When we make any mistake while writing the code, that mistake is called error/bug."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num = 5<br>print(num"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "SyntaxError: unexpected EOF while parsing"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=5<br>print \"a\""
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "SyntaxError: invalid syntax"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example you saw that while printing I forgot to put parenthesis so it showed us a syntax error which means our code has some mistake/error."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Debugs"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Debug means to solve bug/error in the given code or removing the error from the code and writing the correct code which is as per the syntax."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=5<br>print(num)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=2<br>print(num)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As you saw in the bug example   there was a bug present in the second code so we debugged that code."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Source code"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Source code is that code which humans can easily understand."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "name = \"python\"<br>print(name)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "python"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example you saw that we have taken a variable named as <b>name</b> and we have stored python in it.Ypu can easily read and understand this code .This code is called source code/ main code."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://www.grammar-monster.com/glossary/pics/types_of_brackets.png",
+                        "alt": "if-statement-intro_flowchart1.png"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 166,
+                "updated_at": "2023-04-06T04:12:10.103Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1219,
+                "name": "ipython",
+                "description": "information about ipython",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Now we will learn about iPython"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here we will learn about, what is ipython and why do we use it?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When you write python on the Terminal, then <i>python shell</i> opens on the Terminal. You write your python code on the <i>python shell</i> to run it.<br>iPython also does the same work but it provides some extra features. Some of those features we will study below:"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Difference between python and iPython"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "First with iPython"
+                    },
+                    {
+                        "component": "text",
+                        "value": "First, on the Terminal write ipython and press <i>Enter</i>.<br>Now, write cd Downloads in it and press <i>Enter</i>.<br>Then write ls and press <i>Enter</i>.<br>You will be able to see all the <b>folder and files</b> that you kept under the Downloads folder.<br>Now to come outside the iPython shell write quit inside the shell and press <b>Enter</b>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Now we will do the same thing with python"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write ipython on the Terminal and press <b>Enter</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now write cd Downloads and press <b>Enter</b>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": ">>> cd Downloads<br>  File \"<stdin>\", line 1<br>\tcd Downloads<br>\t\t\t   ^<br>SyntaxError: invalid syntax<br>>>>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You will be able to see something like this on the Terminal?<br>This means you cannot go to the <b>Downloads</b> folder with the help of  <b>python shell</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "For this, you need to come out of the <b>python shell</b> and for that, you need to type quit on the  <b>python shell</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now after coming outside type cd Downloads and then type  ls you will be able to see whatever is present in the Downloads."
+                    },
+                    {
+                        "component": "text",
+                        "value": "You cannot change your <b>folder</b> by using a normal <b>python shell</b>. For that, you need to come out of the  <b>python shell</b>. But you can easily change the <b>folder</b> inside this python shell so that you don't need to come out of the <b>iPython shell</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "And when you will type in <b>python shell</b>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": ">>> if True:<br>..."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then note that the cursor (**|**)comes without any space after this ... .<br>But if you will type it in <b>iPython shell</b> then it will show like this."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "In [1]: if True:<br>   ...:\t |"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then you will see that the cursor (<b>|</b>)` comes after some spaces.<br>We call this <b>Indentation</b>. When you will write the code for the first time <b>50% error</b> will be there because of lack of <b>Indentation</b>.<br>Hence, iPython makes the life of an engineer very easy by providing extra features."
+                    },
+                    {
+                        "component": "text",
+                        "value": "When iPython opens you can write code in it. If you are copy-pasting the code from somewhere then press Ctrl + C to copy-paste and open iPython and type %paste for pasting the code."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Very Important Rules"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Run every example on iPython shell. If you don't do this you will make a fool of yourself.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "To copy-paste and run the code will not help you in understanding the code. You have to run every code by yourself.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Words written in UPPER CASE or <b>bold letters</b> are very important. Learn them, you will come across them many times. <br>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "During the course You need to answer some questions at times. To answer those questions you can always upload a file.<br>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Some Code Samples"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this section, some code samples are given. To get comfortable with iPython, you can run them on ipython."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 1:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print (\"It will print this.\")<br>print (\"Cool Stuff \"*10)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 2:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "time = input(\"Is it morning or evening? (morning/evening) \")<br>if time == \"morning\":<br>\tprint(\"Let's go for a run!\")<br>elif time == \"evening\":<br>\tprint(\"Let's go out for a coffee.\")<br>else:<br>\tprint(\"I did not understand what input you put?\")"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 174,
+                "updated_at": "2023-04-04T02:28:35.343Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1220,
+                "name": "indentation",
+                "description": "information about indentation",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is Indentation?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please have a look at the code given below. Now think about the output of this code without running."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 10<br>if a * 2 == 20:<br>print(\"Variable a when multiplied by 2 gives 20.\")<br>else:<br>print(\"Variable a when multiplied by 2 does not give 20.\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What answer did you think? Please copy-paste this code, save this in a file and run this code. You will notice that this code will not print any output, but gives an error. To understand this error we need to think from the point of view of python. Python will run this program as follows:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the first line it will put the value 10 in \"a\".",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the second line python will check that whether multiplying <b>a</b> by 2 gives a result equal to 20 or not.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Till the third line python will be able to know that on multiplying <b>a</b>\n by 2 we will get 20. But python gets confused at this place, it does \nnot understand that whether it should only print  \"Variable a when \nmultiplied by 2 gives 20.\" or it needs to run the code given below also \nor not. Humans can easily understand this, but the computer gets mad and\n gives errors.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "We will write this program correctly as follows,"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 10<br>if a * 2 == 20:<br>\tprint(\"Variable a when multiplied by 2 gives 20.\")<br>else:<br>\tprint(\"Variable a when multiplied by 2 does not give 20.\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When python will run this correct code, then its brain will work like this. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the first line it will put the value 10 in \"a\".",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the second line python will check that whether multiplying <b>a</b> by 2 gives a result equal to 20 or not.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the third line , python will print \n\"Variable a when multiplied by 2 gives 20\". Now, you will think that \npython prints this line in this code then why it did not print in the \nprevious example. But, see a little care that the third line has started\n after some space. These spaces are called indent in python. Now, python\n understands that on multiplying  <b>a</b> by 2 we get 20, if this condition is True, then we will run the lines which are indented below <b>if</b>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the 4th line python finds something else \nbut it does not run else part because if the part already ran. So, how \nto use if statement, try to learn about this.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "This spacing in python is called indentation. Whenever there is a problem related to indentation, Python calls it an Indentation Error This error looks like this:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "File \"<ipython-input-5-9eaf99c4383b>\", line 3<br>\tprint(\"a variable ko 2 se multiply kar ke 20 aata hai\")<br>\t\t^<br>IndentationError: expected an indented block"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "One more example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We will take more examples and understand them clearly. First, run the code given below. After that read the text given below."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "counter = 1<br>while counter < 10:<br>\tprint(\"The counter is \" + str(counter))<br>\tcounter = counter + 1<br>\tprint('--------')"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this program, in the last 3 lines (‘print \"The counter is\" + str(counter)’, ‘counter = counter + 1’, ‘print \"--------\"’) if there is no indentation then python will not be able to understand that after while loop what it has to run? Python will get confused and will give an error. To indent a python code is very important. If you see the program, you will realize that the code is divided into different parts:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the first part, the counter variable is defined and we write the line while counter &lt; 10.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the second part, we have written that code\n which will run after for loop again and again till the for loop is \nrunning. The different parts of code are called code blocks and in \npython to indent these blocks we use a tab. To understand this, save the\n given code in a new file and see what output comes and how that output \nis different from the output of the code given above. After this \ndiscussion about what happened?<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "counter = 1<br>while counter < 10:<br>\tprint(\"The counter is\" + str(counter))<br>\tcounter = counter + 1<br>print('--------')"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Whenever you write the code, then your editor should indent the code, but if it does not do that, then you can use the Tab key for indenting."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can also use the Space key for indentation. Space key  is difficult to use, as many errors occur due to its use, just because of this many errors occur, that is why many Developers(Software Engineer) use Tab so that minor errors do not occur."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Multiple Levels of Indentation"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In a given indented code block there can be another indented code block. Study this code and understand and tell how the output comes? Try to run this code and see if you thought correctly about the output or not. If not then use your brain to think about it more."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "counter = 1<br>while counter < 10:<br>\tif counter % 2 == 0:<br>\t\tprint(\"Counter is an even number.\")<br>\tprint(\"The counter is\" + str(counter))<br>\tcounter = counter + 1<br>print ('--------')"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please see here that in this code,  2 levels of indented code blocks exist.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "After the first level if counter % 2 == 0’ is present.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the second level print (\"Counter is an even number.\") is present.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here, python will run if under while loop  and print (\"Counter is an even number.\")only when inside the loop counter value is an even number."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 176,
+                "updated_at": "2023-04-04T02:30:08.693Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1221,
+                "name": "comments",
+                "description": "information about comments",
+                "course_id": 87,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Comments"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can write comments in any program . When we <i>run</i> the <i>program</i> these comments do not get <i>executed</i>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Comments are written for our understanding, and for the people who are working on that code with us or people with whom we will work later etc. For the understanding of all these people, comments are used."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"This will be printed.\")<br>print(\"This line will also be printed\")<br># This is a comment.<br># You can write it for your ease.<br># Any line that starts with \"#\" (hash) is called a  comment.<br># We write these lines as programmers, for our own ease. Computer ignores them.<br>print(\"Computer will not be able to read above comments,but will print this line.\")"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "What does your program do, is very important to write in comments in a given technical language?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Many times we have seen that the students who don't write comments properly during  interviews, they get a very negative feedback in interviews.</i><br><i>If you make this as a habit then your own  understanding will improve and in future you will not face any problem.</i>"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 179,
+                "updated_at": "2023-04-01T05:52:46.818Z",
+                "course_name": "Introduction To Python",
+                "content_type": "exercise"
+            }
+        ]
+    }
+}

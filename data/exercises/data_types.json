@@ -1,0 +1,1703 @@
+{
+    "course": {
+        "id": 17,
+        "name": "Data Types",
+        "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/datatypes_dcc22ad864.jpg",
+        "short_description": "In this topic we will learn about Data Types.",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": 433,
+                "name": "DataTypes_intro",
+                "description": "information about DataTypes_intro",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is a Data Type ?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As we read the English book, every word in it is English, means the <i>information is in English</i>. Whatever knowledge we are taking from the book is <i>data</i>, and the language is its <i>type</i>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span border-radius: 2px; padding: 2px\">Data type</span> indicates the type of <span border-radius: 2px; padding: 2px\">information</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span border-radius: 2px; padding: 2px\">Data type</span> represents a type of value that determines which operation can be performed per data. For example, <span border-radius: 2px; padding: 2px\">numeric</span>, <span border-radius: 2px; padding: 2px\">non-numeric</span> or <span border-radius: 2px; padding: 2px\">Boolean (true/false)</span> data are the most commonly used data types."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Data Type is a very important concept in <span border-radius: 2px; padding: 2px\">Programming</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can store different type of data type in a <span style=\"\">variable</span>. Like <span border-radius: 2px; padding: 2px\">Numeric</span>, <span border-radius: 2px; padding: 2px\">Characters</span>. Every <span border-radius: 2px; padding: 2px\">programming</span> language has data types."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Below are some data types in <span style=\"\">Python</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Numeric type - (<span style=\"\">Integer</span>, <span style=\"\">Float</span>, complex)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Text type - (<span style=\"\">String</span>)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Boolean type - (<span style=\"\">True</span>, <span style=\"\">False</span>)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Sequence type - (List, Tuple, Range)"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 914,
+                "updated_at": "2023-04-01T06:02:08.544Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 434,
+                "name": "DataTypes_numeric",
+                "description": "information about DataTypes_numeric",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Numeric Type :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We store numbers in the numeric type. Like -int, float, complex."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Integer Data Type(int data type):-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Integer data type has a simple numeric value which is either positive or negative whose length is unlimited."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 14582<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "14582"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example we have stored integer number 14582 in variable a."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "b = -14326<br>print(b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "-14326"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, we have seen how we have taken a negative value in a variable named b, which is an integer data type."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Float Data Type"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The Float data type has a decimal value, either negative or positive."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 23.45<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "23.45"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "b = -34.25<br>print(b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "-34.25"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In these examples, we have given both positive and negative values but in decimal."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Complex Data type"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Complex data types have two parts, the real part and the imaginary part."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 3+5j<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "3+5j"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, 3 is a real part and 5j is an imaginary part."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 917,
+                "updated_at": "2023-06-30T05:46:11.447Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 435,
+                "name": "DataTypes_numbericQ",
+                "description": "information about DataTypes_numbericQ",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a variable with name number and assign any INTEGER value to it.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the number.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a FLOAT value to the number variable. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the number.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a Complex value to the number variable. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the number.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 6
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program -  :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number=6<br>print(number)<br>number=56.67<br>print(number)<br>number=5+7j<br>print(number)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "6<br>56.67<br>(5+7j)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take 2 inputs from the user with data type INTEGER.   ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Store the sum of the 2 user inputs in a variable with name SUM.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print SUM.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program - :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=int(input(\"enter the first number=\"))<br>b=int(input(\"Enter the second number=\"))<br>SUM=a+b<br>print(SUM)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If user enter a = 5 , b = 5 then output will be 10."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 921,
+                "updated_at": "2023-04-01T06:02:58.094Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 436,
+                "name": "DataTypes_String",
+                "description": "information about DataTypes_String",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "String Data Type"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A Python string is a sequence of characters or text. It handles text data. Whatever we write inside of single or double quotes is a string in python."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a= \"Hello python\"<br>b=\"Hello world\"<br>print(a)<br>print(b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hello python"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hello world"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, we have taken two different variables in which the value is written inside double (\" \") quotes or single (' ') quotes."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>a=\"hello\"<br>print(type(a))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "str"
+                    },
+                    {
+                        "component": "text",
+                        "value": "( means string, for checking the data type we use type())."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 923,
+                "updated_at": "2023-04-01T06:03:30.403Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 437,
+                "name": "DataTypes_StringQ",
+                "description": "information about DataTypes_StringQ",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please read about String Concatenation."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have to take two inputs from the user whose data type is STRING.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then in variable by name add, store the sum of both the user inputs.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the variable add.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=input(\"enter first value=\")<br>b=input(\"enter second value=\")<br>add=a+b<br>print(add)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If user enter a = hii and b = sam ,  then output should be hiisam."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take one INTEGER type input and one STRING type input from the user.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then in variable by name add, store the sum of both the user inputs.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the variable add.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program - :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=int(input(\"enter first value=\"))<br>b=input(\"enter second value=\")<br>add=a+b<br>print(add)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "TypeError: can only concatenate str (not 'int') to str"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 927,
+                "updated_at": "2023-03-31T06:51:28.373Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 438,
+                "name": "DataTypes_Boolean",
+                "description": "information about DataTypes_Boolean",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Boolean Data Type"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Boolean is a common data type of all programming languages. Boolean returns two values."
+                    },
+                    {
+                        "component": "text",
+                        "value": "True"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=(\"\")<br>print(bool(a))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Because empty string is false."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>b=(\"megha\")<br>print(bool(b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "True"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Because any string is true except empty."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>print(True)<br>print(type(True))<br>print(False)<br>print(type(False))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "True"
+                    },
+                    {
+                        "component": "text",
+                        "value": "&lt;class bool&gt;"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "&lt;class bool&gt;"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 928,
+                "updated_at": "2023-03-31T06:52:20.224Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 440,
+                "name": "type-conversion_type-conversion-intro",
+                "description": "information about type-conversion_type-conversion-intro",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Remember to run all the code examples and see them. Only by trying them you will be able to learn."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is Type Conversion?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the previous sections, we understood that there are different data types in Python. Some of the types we have read about are :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Integer   <br>2.Float   <br>3.String"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Read the examples carefully."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "# integer<br>age = 27<br>total_apples = 100<br><br># float<br>weight = 10.5<br>area = 120.56<br><br># string<br>day = \"Wednesday\"<br>name = \"Mahatma Gandhi\"<br>a = \"Y\""
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can convert our data from one type to another data type in python. This will come in very handy in the future because we will often have data in one type and we will have to convert to another type. In Python we can do this with the help of type conversions :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Float to String<br>2.Float to Integer<br>3.Integer to String<br>4.Integer to Float<br>5.String to Float <br>6.String to Integer"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "String to Integer and String to Float"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now let us see how to convert to INTEGER. Type cast 12 to Python Integer and store 12."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = '12'<br>var_b = int(var_a)<br>print(type(var_a))<br>print(type(var_b))<br>print(var_a + var_a)<br>print(var_b + var_b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "type - str<br>type - int<br>1212<br>24"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = '12houses'<br>var_b = int(var_a)<br>print(type(var_a))<br>print(type(var_b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Error"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Python tries to convert STRING to INTEGERbut throws an error if it is even a bit confusing. Ex :- Python cannot convert 12.2, and 12houses to integer but can do the same for 12."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Python does not know how to extract integers from 12houses."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = '12.2'<br>var_b = int(var_a)<br>print(type(var_a))<br>print(type(var_b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "type - float<br>type - int"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Float to Integer and Float to String"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Converts any FLOAT to Python INTEGER by removing its decimal part."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = 12.2<br>var_b = int(var_a)<br>print(type(var_a))<br>print(type(var_b))<br>print(var_b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "type - float<br>type - int<br>12"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will learn to typecast in FLOAT. This is similar to typecasting to INTEGER. See it yourself."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = '12'<br>var_b = float(var_a)<br>print(type(var_a))<br>print(type(var_b))<br>print(var_a + var_a)<br>print(var_b + var_b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "type - str<br>type - float<br>1212<br>24.0"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = '12.2'<br>var_b = float(var_a)<br>print(type(var_a))<br>print(type(var_b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "type - str<br>type - float"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = '12houses'<br>var_b = float(var_a)<br>print(type(var_a))<br>print(type(var_b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "ValueError: could not convert string to float: '12houses'"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Python does not know how to extract FLOAT from 12houses."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Integer to Float and Integer to String"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Python simply adds the decimal point when we convert INTEGER to FLOAT."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = 12<br>var_b = float(var_a)<br>print(type(var_a))<br>print(type(var_b))<br>print(var_b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "type - int<br>type - float<br>12.0"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Look carefully here that Python adds .0 to the last. Try converting a FLOAT 12.2 to an INTEGER in Python. Try and understand what is happening."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 930,
+                "updated_at": "2023-04-01T06:04:07.056Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 441,
+                "name": "type-conversion_type-conversion-question",
+                "description": "information about type-conversion_type-conversion-question",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>You can answer each question by uploading a file.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Remember python files have .py extension</i>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>For your sake, we have broken this question into several parts. But you have to submit in a single file.</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a STRING value in var12.<br>2.Then typecast the STRING value to FLOAT and store in var13."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Answer - <br>var12 = 'hii'<br>var13 = float(var12)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a FLOAT value in var23. <br>2.Then typecast the FLOAT value to INTEGER and store in var24."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Answer -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var23 = 4.5<br>var24 = int(var23)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store an INTEGER value in var34.<br>2.Then typecast the INTEGER value to STRING and store in var35."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Answer -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var34 = 56<br>var35 = str(var34)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a FLOAT value in var45.<br>2.Then typecast the FLOAT value to STRING and store in var46."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Answer -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var45 = 5.6<br>var46 = str(var45)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 5"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a STRING value in var56.<br>2.Then typecast the STRING value to INTEGER and store in var57."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Answer -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var56 = \"harish\"<br>var57= int(var56)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Upload the code of all the parts of this question by writing it in a single python file."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var12 = \"my name\"<br>var13 = float(var12)<br>var23 = 234.82<br>var24 = int(var23)<br>var34 = 234<br>var35 = str(var34)<br>var45 = 234.45<br>var46 = str(var45)<br>var56 = \"school\"<br>var57 = int(var56)"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 936,
+                "updated_at": "2023-04-13T08:52:49.953Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 442,
+                "name": "type-conversion_user-input-type-conversion",
+                "description": "information about type-conversion_user-input-type-conversion",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Introduction to Input Function"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this section, we want to take input from user using python. Then we'll also explore doing type conversions with that input."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the future, very often we will have to take some input from our users. To take an input in Python, we use input."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 1 :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "user_input = input(\"Kuch input daaliye \")<br>print (user_input)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When it runs, python will stop and a cursor will appear. Here you have to put some inputs. Press Enter after you have made your input. Now, when you print user_input, whatever value you had to enter will be in the form of a string in the user_input variable."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 2 :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Let us understand this in more detail by taking an example of another input."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number1 = input(\"Enter a number \")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Look here that we have put a string inside the brackets of input. The value of this string is \"Enter a number\". Whatever string we put inside the inner brackets, that string is printed by Python before asking for input. It gives some hint to the user as to what to input. Like in the example above, python will print \"Enter a number\" before asking for input. And when the user presses enter after typing in a number (input), variable number1 will have that value.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "If we do print number1 in the python shell, then whatever value we have entered, will be printed."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Type Conversion of User Inputs"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Whenever we take user input from input to a variable it is in the string type. Meaning, whatever the user puts in, input makes it a string."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number2 = input(\"Enter a number \")<br>print (type(number2))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here the data type of number2 will be string. Whenever we take the value of a variable as input from input, that value is in the form of a string. If the user has to input a number, it will also be in the form of a string."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Like if here we entered 25 then number2 would contain \"25\". Any value that has quotes in front of it is a string. To convert it to INTEGER we have to use int()."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number3 = int(number2)<br>print (type(number3))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Now you know how to take user input in python. Do you know how computer take user input from user if don't know you can watch this video"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "xnyFYiK2rSY&t=2s"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "One more type conversion and input example."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Below is a final example to understand all these things better. This example prints two numbers by taking the input and multiplying them."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>number_x = input(\"Pehla number daaliye \")<br>number_y = input(\"Dusra number daaliye\")<br>number_x = int(number_x) # user_input se hume number_x string type mein mila<br>number_y = int(number_y) # user_input se hume number_y string type mein mila<br>print (number_x * number_y) # number_x aur number_y ka multiple kar ke result print hoga"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If number_x = 5 and number_y = 7, then output will be 12."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here it is important to understand that we convert number_x and number_y to integer before multiplying because with input we get input always in the form of a string."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Fun Activity :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Run this example without converting number_x and number_y to int and see what error occurs. Google this error and try to solve it. Talk to your friends around you, too. For this, you will have to remove the lines with number_x = int(number_x) and number_y = int(number_y).</i>"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 937,
+                "updated_at": "2023-04-01T06:04:39.068Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 443,
+                "name": "type-conversion_user-input-question1",
+                "description": "information about type-conversion_user-input-question1",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Save your code as a python file (with .py extension) and submit it.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This Example is divided into different parts. All the code has to be written and uploaded in a single python file."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take a STRING input from the user using input in var1."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In var2 take another STRING input from the user using input."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Join var1 and var2, then print the result."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>For Example :- If var1 contains STRING \"nav\" and var_2 contains \"gurukul\", then navgurukul should be printed.</i>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_1= \"nav\"<br>var_2= \"gurukul\"<br>print(var_1+var_2)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "navgurukul"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 941,
+                "updated_at": "2023-03-31T06:55:35.038Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 444,
+                "name": "type-conversion_user-input-question2",
+                "description": "information about type-conversion_user-input-question2",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Save your code as a python file (with .py extension) and submit.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This Example is divided into different parts. All the code has to be written and uploaded in a single python file."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take a number input using input in var_a and don't forget to convert it to INTEGER."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take a number input using input in var_b and don't forget to convert it to INTEGER."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the sum of var_a and var_b."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_a = input(\"enter first number: \")<br>var_b = input(\"enter second number: \")<br>var_a=int(var_a)<br>var_b=int(var_b)<br>print(var_a + var_b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Suppose you enter 4 in var_a and 5 in var_b then output will be 9."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 942,
+                "updated_at": "2023-03-31T06:55:59.457Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 445,
+                "name": "Debug_intro",
+                "description": "information about Debug_intro",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Debug Code"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will debug the code related to data types."
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = \"Megha\"<br>print a"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Correct code :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 'Megha'<br>print(a)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"navgurukul\"<br>b= 2016<br>print(a+\",\" + b + \"me shuru hua tha\")"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Correct code :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a='navgurukul'<br>b = 2016<br>b = str(b)<br>print(a+','+ b + 'me shuru hua tha')"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"navgurukul\"<br>b=13<br>print(a+b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Correct code :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a='navgurukul'<br>b = 13<br>b = str(b)<br>print(a+b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>a=\"12\"<br>b=13.1<br>print(a+b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Correct code :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = '12'<br>b = 13.1<br>a = float(a)<br>print(a+b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "E."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = boolean(\"\")<br>b = boolean(\" \")<br>print(a+b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Correct code :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = bool('')<br>b = bool(' ')<br>print(a+b)"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 943,
+                "updated_at": "2023-04-13T08:57:23.710Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 446,
+                "name": "Output_intro",
+                "description": "information about Output_intro",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"\">Code</span> <span style=\"\">Output</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will do some questions related to data types, which will help us in better understanding of the topic."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 944,
+                "updated_at": "2023-03-25T09:49:17.894Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 447,
+                "name": "Output_Question1",
+                "description": "information about Output_Question1",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Check the type of data :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=5<br>a = a * \"5\"<br>print(type(a))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output:- string"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "<br>var1 = \"nav\"<br>var2 = \"gurukul\"<br>print(type(var1+var2))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output:- string"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>num1=\"7\"<br>num2=\"number\"<br>print(type(num1+num2))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output:- string"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br><br>num=6.8<br>num1=5<br>print(type(num+num1))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output:- float"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 945,
+                "updated_at": "2023-03-31T06:57:18.020Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 448,
+                "name": "Output_Question2",
+                "description": "information about Output_Question2",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example-2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>print(bool(False))<br>print(bool(None))<br>print(bool(0))<br>print(bool(\"\"))<br>print(bool(1))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "True"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>x = 20<br>y = 5<br>result = x + True + y - False<br>print(result)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-26"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br><br>str3='''Hello'''  \"\"\" \"\"\"+ \"\"\"World\"\"\"<br>print(str3)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-Hello World"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br><br>num=6.8<br>print(num)<br>num=12<br>print(num)<br>print(num + num)<br>num = num + 10<br>print(num)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "6.8"
+                    },
+                    {
+                        "component": "text",
+                        "value": "12"
+                    },
+                    {
+                        "component": "text",
+                        "value": "24"
+                    },
+                    {
+                        "component": "text",
+                        "value": "22"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 946,
+                "updated_at": "2023-04-13T08:59:24.510Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            },
+            {
+                "id": 449,
+                "name": "Output_Assessment",
+                "description": "information about Output_Assessment",
+                "course_id": 17,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Data Types Exercise "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please give this quiz with proper details to understand how much of this course did you understand."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 947,
+                "updated_at": "2023-04-01T06:05:36.693Z",
+                "course_name": "Data Types",
+                "content_type": "exercise"
+            }
+        ]
+    }
+}

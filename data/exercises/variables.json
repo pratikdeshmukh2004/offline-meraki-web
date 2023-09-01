@@ -1,0 +1,789 @@
+{
+    "course": {
+        "id": 89,
+        "name": "Variables",
+        "logo": "https://s3strapi-project.s3.ap-south-1.amazonaws.com/variables_b26cad6b7c.jpg",
+        "short_description": "Iss topic mai hum Variables ke bare mai janege",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": 1257,
+                "name": "variables_variables-intro",
+                "description": "information about variables_variables-intro",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What are Variables ?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>VARIABLE</b> is a memory/location in which the data is stored. Whose value we can change that is called a VARIABLE. You can give any name to the <b>VARIABLE</b> and you can store anything in the variable."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Just as we can store 123 in a VARIABLE named as variable_x.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Similarly we can put 9999 in a VARIABLE named as a.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "As you remember that 123 and 9999 are INTEGERS."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "variable_x=123<br>a=9999<br># Let's see what happens when we print variable_x and a.<br>print (variable_x, a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "123,9999"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can give another value to variable_x, by this variable_x will be updated. As you can see below that we have given a value 9.9 to the variable_x now."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "variable_x=9.9<br># Now print variable_x to see its value.<br>print (variable_x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "9.9"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As you remember that 9.9 is float. That means we can give different values to a variable. Value of a is not changed because we have not updated it. Now we can update a and make a new variable b."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Now you know in a variable we can store some data but how computer store data do you know"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "15aqFQQVBWU"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "a='hello world'<br>b='navgurukul'<br># Now print them to see the output.<br>print (variable_x, a, b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "hello,world,navgurukul"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Dry Run"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You all have to do these questions using pen and paper. Solve all the exercises in your notebooks and ask other people around you to check the solution."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "9PnmC9NAvzU"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 3<br>b = 4<br>c = a * b<br>a = b * c<br>b = a + c<br>c = a + b + c"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 1<br>b = 2<br>b = a"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 7<br>b = 8 * 4<br>b = a"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 1<br>b = 2<br>c = b<br>b = a <br>a = c"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 1<br>b = a*2<br>c = b*2<br>a = c*2"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 100<br> a = a + 50<br> a = a / 3<br> a = a * 2"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": " a = 10<br> b = 10<br> c = a * b<br> a = c - b<br> b = c + a<br> c = a * c"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To understand and verify this solution you can watch these videos."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "fny5w_YKSc8"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "RsmMloOHrRQ"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "pyFetzD0b38"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 666,
+                "updated_at": "2023-04-04T02:35:32.476Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1258,
+                "name": "variables_variables-question",
+                "description": "information about variables_variables-question",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variable Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>To answer any question you can upload the file.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Remember python file extension is .py.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Just for your ease we have broken up this question into multiple parts. But you have to do the submission in single file only.</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1. Assign an INTEGER value to a variable named as variable_nav."
+                    },
+                    {
+                        "component": "text",
+                        "value": "2. Then print the variable_nav."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "variable_nav = 50<br>print(variable_nav)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "50"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1. Take a new variable named as gurukul and assign any STRING value to it.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "2. Assign a FLOAT value to variable_nav and set it.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "3. Now print the value of variable_nav and gurukul."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "gurukul = \"hii\"<br>variable_nav = 67.78<br>print(gurukul)<br>print(variable_nav)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "hii<br>67.78"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 672,
+                "updated_at": "2023-04-13T08:48:43.954Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1259,
+                "name": "variables_variables-naming-rules",
+                "description": "information about variables_variables-naming-rules",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Naming rules for a VARIABLE"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In Python for naming variables, some rules are followed. If we do not follow these rules, then the <i>program</i> is not going to be correct.  "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Keep these 3 rules always in your mind:  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "The name starts with either some - Letter or an _ (underscore).",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Only letters, underscore or numbers can be present in the Name (no special characters).",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is Case Sensitive (means var, VAR, Var are different variables).",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Correct Names</b> - variable, var123, var_12, _var, _12  <br><b>Incorrect Names</b> - var@iable, 123var, var.123  <br><b>Different Names</b> - varX, varx, Varx, VarX"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Activity :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In Python shell, try to put values in the Incorrect variable names. See how python gives errors."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 673,
+                "updated_at": "2023-04-01T05:57:27.369Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1260,
+                "name": "variables_variables-naming-conventions",
+                "description": "information about variables_variables-naming-conventions",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variables naming conventions"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is very important to give correct name to a Variable.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you don't give names properly, then nobody will be able to read your Code, as they won't be able to understand that for what purpose the variable is used?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "camelCase,&nbsp;",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "PascalCase,&nbsp;",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "snake_case,",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "UPPER_CASE,",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "kebab-case.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": " are five most popular cases for naming."
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can read in detail about the <a href=\"https://www.chaseadams.io/most-common-programming-case-types/\">cases</a> here."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In Python, we usually use :"
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "<b>What Name?</b>",
+                                "items": [
+                                    "variableNames",
+                                    "CONSTANT_NAMES",
+                                    "function_names"
+                                ]
+                            },
+                            {
+                                "header": "<b>Which Case?</b>",
+                                "items": [
+                                    "camelCase",
+                                    "UPPER_CASE",
+                                    "snake_case"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "text",
+                        "value": "Also, to give names to a variable is a skill in itself. Read this <a href=\"https://hackernoon.com/the-art-of-naming-variables-52f44de00aad\">article</a> to understand about naming conventions."
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "<b>Category</b>",
+                                "items": [
+                                    "arrayVariables",
+                                    "booleanVariables",
+                                    "function_names"
+                                ]
+                            },
+                            {
+                                "header": "<b>Suggested_Rule</b>",
+                                "items": [
+                                    "usePlurals",
+                                    "start with is, can or has",
+                                    "use a verb or noun"
+                                ]
+                            },
+                            {
+                                "header": "<b>Examples</b>",
+                                "items": [
+                                    "fruits, vegetables, etc.fruits = [\"apple\", \"banana\", \"guavas\"]",
+                                    "isOpen = TruecanWrite = FalsehasFruit = True",
+                                    "get_user(userId)calculate_total(items)to_Dollars('euros', 20)"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Note : Many candidates get rejected in their interviews, because they don't name the variables properly, and the company does not like this</b>."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 679,
+                "updated_at": "2023-04-01T05:58:32.234Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1261,
+                "name": "variables_variables-naming-question1",
+                "description": "information about variables_variables-naming-question1",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variables naming Example-1"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign FLOAT value to a VARIABLE named as var_12.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign STRING value to a VARIABLE named as_var.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign INTEGER value to a VARIABLE named as_12.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "After doing the above 3 steps, print those three variables.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program: -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var_12 = 56.67<br>_var = \"hii\"<br>_12 = 56<br>print(var_12)<br>print(_var)<br>print(_12)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "56.67<br>hii<br>56"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 686,
+                "updated_at": "2023-04-01T05:59:14.220Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1262,
+                "name": "variables_variables-naming-question2",
+                "description": "information about variables_variables-naming-question2",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variables naming Example-2"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign INTEGER value to a VARIABLE named as 123var.  ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If your code runs easily, then upload it. If it does not run then put the reason in the comment and upload the code.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program: -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "<br>123var = 100<br>print(123var)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output: -"
+                    },
+                    {
+                        "component": "text",
+                        "value": "SyntaxError: invalid syntax"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 688,
+                "updated_at": "2023-03-30T11:49:04.986Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1263,
+                "name": "variables_variables-naming-question3",
+                "description": "information about variables_variables-naming-question3",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variables naming Example-3"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign an INTEGER value to a VARIABLE named as var.123.  ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If&nbsp;your code runs easily, then upload it. If it does not run then put the reason in the comment and then upload the code.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program: -"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var.123 = 56<br>print(var.123)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "SyntaxError: invalid syntax"
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 689,
+                "updated_at": "2023-03-30T11:49:58.300Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1264,
+                "name": "variables_variables-naming-question4",
+                "description": "information about variables_variables-naming-question4",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variables naming Example-4"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Example"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a STRING value to a variable named as Varx.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a FLOAT value to a variable named as vaRx.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Try to print it, to see if Varx and vaRx are same or not. If not, then write your reason in the comment in your file.<br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Program :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "Varx = \"hii\"<br>vaRx = 56.76<br>print(Varx)<br>print(vaRx)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Output :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "hi<br>56.76"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Varx and vaRx are not same because the letters in them have different casses."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 690,
+                "updated_at": "2023-04-04T02:37:21.562Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            },
+            {
+                "id": 1265,
+                "name": "variables_Assessment",
+                "description": "information about variables_Assessment",
+                "course_id": 89,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Variable Exercise"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please give the quiz with proper details to understand how much of this course did you understand."
+                    }
+                ],
+                "type": "exercise",
+                "sequence_num": 691,
+                "updated_at": "2023-04-01T06:01:01.693Z",
+                "course_name": "Variables",
+                "content_type": "exercise"
+            }
+        ]
+    }
+}
