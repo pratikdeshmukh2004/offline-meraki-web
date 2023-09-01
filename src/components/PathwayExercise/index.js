@@ -72,8 +72,10 @@ function PathwayExercise() {
    const [exercise, setExercise] = useState([]);
    const [exerciseId, setExerciseId] = useState(exercise?.course?.exercises[0]?.id);
     useEffect(() => {
+        const url = `https://pratikdeshmukh2004.github.io/offline-meraki-web/data/exercises${window.location.pathname}.json`
         // Make a GET request to the API endpoint
-        axios.get(`https://pratikdeshmukh2004.github.io/offline-meraki-web/data/exercises${window.location.pathname}.json`)
+        console.log(url, 'url...');
+        axios.get(url)
           .then(response => {
             // Handle successful response
             console.log(response, 'response...');
