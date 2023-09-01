@@ -1,0 +1,376 @@
+{
+    "pathways": [
+      {
+        "milestones": [],
+        "id": 39,
+        "code": "PRGPYT",
+        "name": "Python",
+        "description": "Learn the basics of programming with Python",
+        "created_at": "2021-03-13T08:46:16.269Z",
+        "tracking_enabled": false,
+        "tracking_frequency": "weekly",
+        "tracking_day_of_week": 0,
+        "tracking_days_lock_before_cycle": 0,
+        "logo": "https://merakidebug.s3.ap-south-1.amazonaws.com/pathway_images/python-logo.png",
+        "courses": [
+          {
+            "id": "114",
+            "name": "Functions",
+            "logo": "https://raw.githubusercontent.com/navgurukul/newton/master/functions/assets/function_defn_inst_1.png",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Iss topic mai hum functions ke bare mai janege",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "164",
+            "name": "Variables",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Iss topic mai hum Variables ke bare mai janege",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "165",
+            "name": "Data Types",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "In this topic we will learn about Data Types.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "166",
+            "name": "Operators",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "In this topic, we will learn about Operators.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "167",
+            "name": "If-else",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "In this topic, we will learn about if-else.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "168",
+            "name": "Loops 101 (Using Python)",
+            "logo": "https",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Let us understand loops in depth.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "169",
+            "name": "Lists 101 (Using Python)",
+            "logo": "https",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Let us understand list  in depth.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "170",
+            "name": "Dictionary (Using Python)",
+            "logo": "https",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Dictionary ko thoda depth mein samajhte hain.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "199",
+            "name": "Introduction To Python",
+            "logo": "https",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "In this topic we will study about the Introduction of Python.",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          }
+        ],
+        "cta": null,
+        "shouldShowCertificate": true,
+        "lang_available": [
+          {
+            "code": "en",
+            "label": "English"
+          }
+        ]
+      },
+      {
+        "milestones": [],
+        "id": 44,
+        "code": "JVSCPT",
+        "name": "JavaScript",
+        "description": "Learn JavaScript",
+        "created_at": "2021-06-23T15:19:59.362Z",
+        "tracking_enabled": false,
+        "tracking_frequency": null,
+        "tracking_day_of_week": null,
+        "tracking_days_lock_before_cycle": null,
+        "logo": "https://merakilearn.s3.ap-south-1.amazonaws.com/Meraki+track+icons/javascript/type%3Djavascript_xxxhdpi.png",
+        "courses": [
+          {
+            "id": "148",
+            "name": "JS Introduction",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "We will discuss about javascript introduction, how to install node in your laptop and run first program.",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "171",
+            "name": "JS Variables",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "We will discuss about javascript variables.",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "172",
+            "name": "JS Operators",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Iss topic mai hum JavaScript ke Operators ke bare mai janege",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "173",
+            "name": "JS Objects",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "We will discuss about the operations can be done on objects in javascript.",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "174",
+            "name": "JS Loops",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "We will discuss about different types of loops in javascript.",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "175",
+            "name": "JS if-else",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "We will discuss about Conditional Statements.",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "176",
+            "name": "JS Functions",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "We will discuss about the operations can be done on functions in javascript.",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "177",
+            "name": "JS Data Types",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Iss topic mai hum JavaScript ke Data Type ke bare mai janege",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          },
+          {
+            "id": "178",
+            "name": "JS Arrays",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Iss topic mai hum JavaScript ke Arrays ke bare mai janege",
+            "type": "js",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          }
+        ],
+        "cta": null,
+        "shouldShowCertificate": false,
+        "lang_available": [
+          {
+            "code": "en",
+            "label": "English"
+          }
+        ]
+      },
+      {
+        "milestones": [],
+        "id": 40,
+        "code": "TYPGRU",
+        "name": "Typing",
+        "description": "Learn typing on your phone",
+        "created_at": "2021-03-13T08:54:59.362Z",
+        "tracking_enabled": false,
+        "tracking_frequency": "weekly",
+        "tracking_day_of_week": 0,
+        "tracking_days_lock_before_cycle": 0,
+        "logo": "https://merakilearn.s3.ap-south-1.amazonaws.com/Meraki+track+icons/typing/type%3Dtyping_xxxhdpi.png",
+        "courses": [],
+        "cta": null,
+        "shouldShowCertificate": false,
+        "lang_available": []
+      },
+      {
+        "milestones": [],
+        "id": 46,
+        "code": "PRCRSE",
+        "name": "Residential Programmes Info-Track",
+        "description": "Preparatory Course",
+        "created_at": "2021-12-08T04:41:01.307Z",
+        "tracking_enabled": false,
+        "tracking_frequency": null,
+        "tracking_day_of_week": null,
+        "tracking_days_lock_before_cycle": null,
+        "logo": "https://merakilearn.s3.ap-south-1.amazonaws.com/Meraki+track+icons/residential+prog/type%3Dresidential+prog._xxxhdpi.png",
+        "courses": [],
+        "cta": {
+          "value": "Yes, let’s take the test",
+          "url": "https://www.merakilearn.org/admission?redirect"
+        },
+        "shouldShowCertificate": false,
+        "lang_available": []
+      },
+      {
+        "milestones": [],
+        "id": 43,
+        "code": "SPKENG",
+        "name": "Spoken English",
+        "description": "Learn Spoken English",
+        "created_at": "2021-06-23T06:59:59.362Z",
+        "tracking_enabled": false,
+        "tracking_frequency": null,
+        "tracking_day_of_week": null,
+        "tracking_days_lock_before_cycle": null,
+        "logo": "https://merakilearn.s3.ap-south-1.amazonaws.com/Meraki+track+icons/spokenenglish/type%3Dspokenenglish_xxxhdpi.png",
+        "courses": [
+          {
+            "id": "125",
+            "name": "Spoken-English",
+            "logo": "http://navgurukul.org/img/sqlogo.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "let's learn to speak english",
+            "type": "html",
+            "course_type": null,
+            "lang_available": [
+              "en"
+            ],
+            "completed_portion": 0
+          }
+        ],
+        "cta": null,
+        "shouldShowCertificate": false,
+        "lang_available": [
+          {
+            "code": "en",
+            "label": "English"
+          }
+        ]
+      }
+    ]
+  }
