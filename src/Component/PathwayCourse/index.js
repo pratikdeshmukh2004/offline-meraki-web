@@ -16,23 +16,10 @@ import {
   LinearProgress,
   CardContent,
 } from "@mui/material";
-import monitering from "./asset/ComputerScreen.svg";
 import {Link} from '@mui/material';
-import DOMPurify from "dompurify";
-import get from "lodash/get";
-import CloseIcon from "@mui/icons-material/Close";
-import CheckIcon from "@mui/icons-material/Check";
 
-function UnsafeHTML(props) {
-  const { html, Container, ...otherProps } = props;
-  const sanitizedHTML = DOMPurify.sanitize(html);
-  return (
-    <Container
-      {...otherProps}
-      dangerouslySetInnerHTML={{ __html: sanitizedHTML }}
-    />
-  );
-}
+
+
 
 function PathwayCourse() {
   const [pathways, setPathways] = React.useState([]);
