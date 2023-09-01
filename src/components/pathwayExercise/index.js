@@ -70,15 +70,15 @@ const headingVarients = {};
 
 function PathwayExercise() {
    const [exercise, setExercise] = useState([]);
-   const [exerciseId, setExerciseId] = useState(exercise?.course?.exercises[0]?.id);
+   const [exerciseId, setExerciseId] = useState();
     useEffect(() => {
         // Make a GET request to the API endpoint
-        axios.get(`https://pratikdeshmukh2004.github.io/offline-meraki-web/data/exercises${window.location.pathname}.json`)
+        axios.get(`https://pratikdeshmukh2004.github.io/offline-meraki-web/data/exercises/data_types.json`)
           .then(response => {
-            // Handle successful response
             console.log(response, 'response...');
-            setExerciseId(response.data?.course?.exercises[0]?.id)
+            // Handle successful response
             setExercise(response.data);
+            setExerciseId(response.data?.course?.exercises[0]?.id);
           })
           .catch(error => {
             // Handle error
