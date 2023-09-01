@@ -12,6 +12,8 @@ import {
   CardContent,
 } from "@mui/material";
 
+
+
 import axios from "axios";
 import Header from "../header.js";
 
@@ -34,15 +36,15 @@ const Pathways = () => {
   return (
     <>
       <Header />
-      {/* <h4 style={{textAlign: 'center'}}>Courses</h4>
+      <h4 style={{textAlign: 'center'}}>Courses</h4>
       <div className="grid">
-        {courses.map((c) => (
+        {/* {courses.map((c) => (
           <div className="box" key={c.id}>
             <img width={50} height={50} src={c.logo}/>
-            <h4>{c.name}</h4>
+            <h4>{courses.name}</h4>
           </div>
-        ))}
-      </div> */}
+        ))} */}
+      </div>
 
       <Container>
         <Typography variant="h6" sx={{ mt: 8, ml: 2 }} align="left">
@@ -52,7 +54,9 @@ const Pathways = () => {
         <Grid container spacing={3} align="center">
           {courses.map((course, index) => (
             <Grid item key={index} xs={12} md={3}>
+          
               <Card
+              
                 sx={{
                   minWidth: "150px",
                   borderRadius: "8px",
@@ -87,6 +91,7 @@ const Pathways = () => {
                   </Typography>
                 </CardContent>
               </Card>
+             
             </Grid>
           ))}
         </Grid>
