@@ -16,10 +16,7 @@ import {
   LinearProgress,
   CardContent,
 } from "@mui/material";
-import {Link} from '@mui/material';
-
-
-
+import {Link} from 'react-router-dom';
 
 function PathwayCourse() {
   const [pathways, setPathways] = React.useState([]);
