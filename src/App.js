@@ -9,11 +9,11 @@ const App = () => {
   useEffect(() => {
     axios
       .get(
-        `https://pratikdeshmukh2004.github.io/offline-meraki-web/data/courses.json`
+        `https://pratikdeshmukh2004.github.io/offline-meraki-web/data/pathways.json`
       )
       .then((response) => {
         console.log(response);
-        setCourses(response?.data);
+        setCourses(response?.data?.pathways);
       })
       .catch((error) => {
         console.log(error);
@@ -21,12 +21,15 @@ const App = () => {
   }, []);
   return (
     <>
-      <h4>Courses</h4>
-      <ul>
+      <h4 style={{textAlign: 'center'}}>Courses</h4>
+      <div className="grid">
         {courses.map((c) => (
-          <li key={c.id}>{c.name}</li>
+          <div className="box" key={c.id}>
+            <img width={50} height={50} src={c.logo}/>
+            <h4>{c.name}</h4>
+          </div>
         ))}
-      </ul>
+      </div>
     </>
   );
 };

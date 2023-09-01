@@ -63,7 +63,7 @@ registerRoute(
  * Caches at: runtime
  */
 registerRoute(
-  ({url}) => url.origin === "https://navgurukul.github.io",
+  ({url}) => url.origin === "https://pratikdeshmukh2004.github.io",
   new StaleWhileRevalidate({
     cacheName: 'movie-api-response',
     plugins: [
