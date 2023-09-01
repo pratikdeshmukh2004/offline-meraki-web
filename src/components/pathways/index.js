@@ -21,11 +21,11 @@ const Pathways = () => {
   useEffect(() => {
     axios
       .get(
-        `https://pratikdeshmukh2004.github.io/offline-meraki-web/data/pathways.json`
+        `https://pratikdeshmukh2004.github.io/offline-meraki-web/data/python_courses.json`
       )
       .then((response) => {
         console.log(response);
-        setCourses(response?.data?.pathways);
+        setCourses(response?.data?.courses);
       })
       .catch((error) => {
         console.log(error);
@@ -55,7 +55,7 @@ const Pathways = () => {
               <Card
                 sx={{
                   minWidth: "150px",
-                  backgroundColor: "pink",
+                  borderRadius: "8px",
                   margin: "16px 0",
                   height: "100%",
                   "&:hover": {
@@ -65,18 +65,7 @@ const Pathways = () => {
                 }}
                 elevation={0}
               >
-                <CardMedia
-                  component="img"
-                  src={course.logo}
-                  style={{
-                    width: "50%",
-                    padding: "8px",
-                    // height: "100px ",
-                    borderRadius: "8px",
-                    objectFit: "contain",
-                  }}
-                />
-                {/* <img
+                <img
                   src={course.logo}
                   alt="course"
                   style={{
@@ -85,9 +74,10 @@ const Pathways = () => {
                     borderRadius: "8px",
                     objectFit: "cover",
                   }}
-                /> */}
+                />
                 <CardContent
                   sx={{
+                    marginTop: "8px",
                     height: "30px",
                     p: "0px 8px 0px 0px",
                   }}
