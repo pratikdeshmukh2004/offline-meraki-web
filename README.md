@@ -30,7 +30,7 @@ Begin development based on the project phases and objectives outlined above.
 
 - `$ cd offline-meraki-web`
 - `$ npm install`
-- `$ npm start`
+- `$ npm run dev`
 
 Visit here to see the prototype working.
 
